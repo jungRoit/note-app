@@ -1,0 +1,21 @@
+.nav{
+    height: 500px;
+    width: 200px;
+    margin: 20px;
+    background-color: #F0C709;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+.nav-menu{
+    height: 100px;
+    width: 150px;
+    margin:20px;
+    background-color: #EB7514;
+    
+}
+
+.nav-item{
+    padding-top: 30px;
+}

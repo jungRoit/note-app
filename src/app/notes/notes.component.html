@@ -1,0 +1,15 @@
+<app-nav-bar></app-nav-bar>
+
+<div *ngFor='let note of notes' class="item">
+  <div class="options">
+    <a [routerLink]="['/editNotes',note.id]" class="btn-edit">\</a>
+    <a (click)="deleteNote(note.id)" class="btn-delete">X</a>
+    <p class="date-time">{{note.addedDate | date: "dd.MM.y.hh.mm"}}</p>
+  </div>
+  <div class="head">
+    <h2>{{note.title}}</h2>
+  </div>
+  <div class="content">
+    <p>{{note.body}}</p>
+  </div>
+</div>

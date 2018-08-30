@@ -1,0 +1,54 @@
+.item{
+    width: 200px;
+    height: 190px;
+    background-color: #3C789D;
+    text-align: center;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.head{
+    font-size: 15px;
+    color:yellowgreen;
+}
+
+.content{
+    font-size: 12px;
+    color:gold;
+}
+
+
+.options{
+    text-align: right;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    
+}
+
+.btn-edit{
+    text-decoration: none;
+    margin-right: 5px;
+    color: #F3BE5D;
+    
+   
+}
+.btn-delete{
+    text-decoration: none;
+    color: #F96060;
+    
+    
+}
+
+.date-time{
+    text-align: right;
+    font-size: 10px;
+    color: #F3BE5D;
+    
+    
+}
